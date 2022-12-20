@@ -1,10 +1,15 @@
 .container{
 width:600px;
 margin:0 auto;
+align-self:center;
+padding:15vh 0vh;
 }
 .logo-and-intro{
 display:flex;
-gap:20px;width:600px;
+gap:20px;
+width:400px;
+margin:0 auto;
+justify-items: center;
 }
 .logo{
 
@@ -36,7 +41,11 @@ body{
     background-color:#d6dff9;
     display:flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
-input button{
-border-radius:10px;
+input, button{
+border-radius:5px;
+padding:5px;
+outline:none;
 }
