@@ -1,0 +1,42 @@
+.container{
+width:600px;
+margin:0 auto;
+}
+.logo-and-intro{
+display:flex;
+gap:20px;width:600px;
+}
+.logo{
+
+}
+#logo img{
+    height:64px;
+    width:48px;
+}
+.intro{
+
+}
+.signup-form{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+.halves-form-els{
+display:flex;
+gap:20px;
+}
+.halves-form-els input{
+    flex:1;
+}
+#location-btn{
+   background-color:#3461e2;
+   width:50%;
+}
+body{
+    background-color:#d6dff9;
+    display:flex;
+    flex-direction: column;
+}
+input button{
+border-radius:10px;
+}
